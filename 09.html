@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Luciano Celi website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <script src="website/js/jquery.min.js"></script>
+    <script src="website/js/bootstrap.min.js"></script>
+    <link href="website/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        .bs-example {
+            margin: 20px;
+        }
+
+        .rotate {
+            -webkit-transform: rotate(90deg);
+            /* Chrome, Safari, Opera */
+            -moz-transform: rotate(90deg);
+            /* Firefox */
+            -ms-transform: rotate(90deg);
+            /* IE 9 */
+            transform: rotate(90deg);
+            /* Standard syntax */
+        }
+
+        @media (max-width: 980px) {
+
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            // Add minus icon for collapse element which is open by default
+            $(".collapse.in").each(function() {
+                $(this).siblings(".panel-heading").find(".glyphicon").addClass("rotate");
+            });
+
+            // Toggle plus minus icon on show hide of collapse element
+            $(".collapse").on('show.bs.collapse', function() {
+                $(this).parent().find(".glyphicon").addClass("rotate");
+            }).on('hide.bs.collapse', function() {
+                $(this).parent().find(".glyphicon").removeClass("rotate");
+            });
+        });
+    </script>
+
+    <link href="website/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="website/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="website/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="website/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="website/ico/apple-touch-icon.png">
+    <link rel="shortcut icon" href="website/ico/favicon.ico">
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="#">Luciano Celi website</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contatti</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span3">
+                <div class="well sidebar-nav">
+                    <ul class="nav nav-list">
+                        <li class="nav-header">formazione</li>
+                        <li><a href="01.html">01. Formazione istituzionale</a></li>
+                        <li><a href="02.html">02. Formazione tecnica</a></li>
+                        <li class="nav-header">esperienze di lavoro</li>
+                        <li><a href="03.html">03. Fino al 2005</a></li>
+                        <li><a href="04.html">04. Prima del 2005</a></li>
+                        <li class="nav-header">divulgazione scientifica</li>
+                        <li><a href="05.html">05. Conferenze, lezioni, presentazioni</a></li>
+                        <li><a href="06.html">06. Corsi, convegni, seminari, scuole</a></li>
+                        <li><a href="07.html">07. Attività pubblicistica generale</a></li>
+                        <li><a href="08.html">08. Divulgazione e storia della scienza</a></li>
+                        <li class="nav-header">altre informazioni</li>
+                        <li class="active"><a href="#">09. Libri</a></li>
+                        <li><a href="10.html">10. Divulgazione culturale</a></li>
+                        <li><a href="11.html">11. Organizzazione di eventi</a></li>
+                        <li><a href="12.html">12. Curatele</a></li>
+                        <li><a href="13.html">13. Collaborazioni</a></li>
+                        <li><a href="14.html">14. Altre informazioni</a></li>
+                        <li class="nav-header">vita cnr</li>
+                        <li><a href="15.html">15. Aggiornamento / formazione</a></li>
+                        <li><a href="16.html">16. Articoli scientifici (peer reviewed)</a></li>
+                        <li><a href="17.html">17. Divulgazione scientifica / Ufficio stampa</a></li>
+                        <li><a href="18.html">18. Conferenze stampa</a></li>
+                        <li><a href="19.html">19. conferenze / interventi a convegni</a></li>
+                        <li><a href="20.html">20. Incarichi e attività istituzionali</a></li>
+                    </ul>
+                </div>
+                <!--/.well -->
+            </div>
+            <!--/span-->
+
+            <div class="span9">
+                <div class="row-fluid">
+                    <div class="span9">
+                        <h3 align="center">09. Libri</h3>
+                        <hr>
+                        <ul>
+                            <li>
+                                <b><a href="http://www.aracneeditrice.it/index.php/pubblicazione.html?item=9788854831384">Gettar luce nell’oscuro laberinto. Arte, letteratura, scienza in Galileo Galilei</a></b>, Aracne editrice, Roma, marzo 2010. ISBN: 978–88–548–3138–4.
+                            </li>
+                            <hr>
+                            <li><b>Materiale resistente. Il periodo 1943-45 oggi, tra storia e letteratura</b>
+                                <ul>
+                                    <li><a href="http://www.lulu.com/shop/luciano-celi/materiale-resistente/paperback/product-3545844.html">Prima edizione</a> (settembre 2008): Lulu.com editore, USA. ISBN: 978–1–4092–3128–8.</li>
+                                    <li><a href="http://www.labottegadiaronte.it/labottegadiaronte/index.php?id_product=26&controller=product">Seconda edizione</a> (aprile 2009): Società Editrice Apuana, Carrara. ISBN: 978-88-7149-029-8.</li>
+                                </ul>
+                                <p>Segnalato come finalista del premio letterario Nabokov, edizione 2009 nella sezione saggistica e presentato:</p>
+                                <ul>
+                                    <li>il 18/04/2009 a Palazzo Bordillon (MS), nel calendario del Comune di Massa per le celebrazioni del 25 aprile;</li>
+                                    <li>il 07/10/2009 a Marina di Massa, nell’ambito dell’iniziativa <i>La Storia in APT. Incontri e presentazioni di libri dedicati alla storia locale: novità editoriali e tesi di laurea</i>, a cura dell’Azienda Promozione Turistica.</li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <li>
+                                <b><a href="http://www.aracneeditrice.it/index.php/pubblicazione.html?item=9788854819825">La valigia di Aristotele. Concetti, prototipi, orsi bianchi & lavatrici</a></b>, Aracne editrice, Roma, agosto 2008. ISBN: 978–88–548–1982–5.
+                            </li>
+                        </ul>
+                        <hr>
+
+                        <h4 align="center">09.1 Contributi in libri altrui</h4>
+                        <ul><br>
+                            
+                            <li>
+                                <b>Lontani dal (senso del) equilibrio: qualche aspetto cognitivo del nostro modo di vivere nel presente</b>, in «Nuovi sguardi sulle scienze cognitive», a cura di Marco Cruciani e Marco Elio Tabacchi, Corisco, Messina, 2017. 
+                                <br>ISBN: 978-88-98138-25-8, pp. 105-120.</li><br>
+                            <li>
+                                <b><a href="http://www.aracneeditrice.it/index.php/pubblicazione.html?item=9788854883192">Scienza</a></b>, contributo al volume «Voci per un’enciclopedia belliana», a cura di Marialuigia Sipione, Aracne editrice, Roma, aprile 2015. ISBN: 978–88–548–8319–2, pp. 209-232.
+                            </li><br>
+                            <li><b>Scienza, ci si può fidare?</b>, contributo al volume «Parola di scienziato. La conoscenza ridotta a opinione», a cura di Francesca Dragotto e Marco Ferrazzoli, Universitalia, Roma, maggio 2014. ISBN: 978-88-6507-681-1, pp. 277-293.</li><br>
+                            <li><b>Log book</b>, contributo al volume «<a href="https://www.springer.com/gp/book/9788847007116">Tutti i numeri sono uguali a cinque</a>», a cura di Stefano Sandrelli, Daniele Gouthier, Robert Ghattas, Springer-Verlag Italia, Milano, settembre 2007. ISBN: 978-88-470-0711-6, DOI: 10.1007/978-88-470-0712-3, pp. 215-226.</li>
+                        </ul>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+            </div>
+            <!--/span-->
+        </div>
+        <!--/row-->
+        <hr>
+        <footer>
+            <p>&copy; Luciano Celi 2020</p>
+        </footer>
+    </div>
+</body></html>

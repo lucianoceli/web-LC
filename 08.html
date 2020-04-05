@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Luciano Celi website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <script src="website/js/jquery.min.js"></script>
+    <script src="website/js/bootstrap.min.js"></script>
+    <link href="website/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        .bs-example {
+            margin: 20px;
+        }
+
+        .rotate {
+            -webkit-transform: rotate(90deg);
+            /* Chrome, Safari, Opera */
+            -moz-transform: rotate(90deg);
+            /* Firefox */
+            -ms-transform: rotate(90deg);
+            /* IE 9 */
+            transform: rotate(90deg);
+            /* Standard syntax */
+        }
+
+        @media (max-width: 980px) {
+
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            // Add minus icon for collapse element which is open by default
+            $(".collapse.in").each(function() {
+                $(this).siblings(".panel-heading").find(".glyphicon").addClass("rotate");
+            });
+
+            // Toggle plus minus icon on show hide of collapse element
+            $(".collapse").on('show.bs.collapse', function() {
+                $(this).parent().find(".glyphicon").addClass("rotate");
+            }).on('hide.bs.collapse', function() {
+                $(this).parent().find(".glyphicon").removeClass("rotate");
+            });
+        });
+    </script>
+
+    <link href="website/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="website/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="website/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="website/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="website/ico/apple-touch-icon.png">
+    <link rel="shortcut icon" href="website/ico/favicon.ico">
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="#">Luciano Celi website</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contatti</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span3">
+                <div class="well sidebar-nav">
+                    <ul class="nav nav-list">
+                        <li class="nav-header">formazione</li>
+                        <li><a href="01.html">01. Formazione istituzionale</a></li>
+                        <li><a href="02.html">02. Formazione tecnica</a></li>
+                        <li class="nav-header">esperienze di lavoro</li>
+                        <li><a href="03.html">03. Fino al 2005</a></li>
+                        <li><a href="04.html">04. Prima del 2005</a></li>
+                        <li class="nav-header">divulgazione scientifica</li>
+                        <li><a href="05.html">05. Conferenze, lezioni, presentazioni</a></li>
+                        <li><a href="06.html">06. Corsi, convegni, seminari, scuole</a></li>
+                        <li><a href="07.html">07. Attività pubblicistica generale</a></li>
+                        <li class="active"><a href="#">08. Divulgazione e storia della scienza</a></li>
+                        <li class="nav-header">altre informazioni</li>
+                        <li><a href="09.html">09. Libri</a></li>
+                        <li><a href="10.html">10. Divulgazione culturale</a></li>
+                        <li><a href="11.html">11. Organizzazione di eventi</a></li>
+                        <li><a href="12.html">12. Curatele</a></li>
+                        <li><a href="13.html">13. Collaborazioni</a></li>
+                        <li><a href="14.html">14. Altre informazioni</a></li>
+                        <li class="nav-header">vita cnr</li>
+                        <li><a href="15.html">15. Aggiornamento / formazione</a></li>
+                        <li><a href="16.html">16. Articoli scientifici (peer reviewed)</a></li>
+                        <li><a href="17.html">17. Divulgazione scientifica / Ufficio stampa</a></li>
+                        <li><a href="18.html">18. Conferenze stampa</a></li>
+                        <li><a href="19.html">19. conferenze / interventi a convegni</a></li>
+                        <li><a href="20.html">20. Incarichi e attività istituzionali</a></li>
+                    </ul>
+                </div>
+                <!--/.well -->
+            </div>
+            <!--/span-->
+
+            <div class="span9">
+                <div class="row-fluid">
+                    <div class="span9">
+                        <h3 align="center">08. Divulgazione e storia della scienza</h3>
+                        <h4 align="center">(<span class="badge badge-secondary">W</span> = articolo su web) </h4>
+                        <hr>
+
+                        <h5>08.1 Articoli e collaborazioni più recenti #1: «Nuova Secondaria» e «Sapere»</h5>
+
+                        <button data-toggle="collapse" data-target="#01">Dettagli</button>
+                        <div id="01" class="collapse">
+                            <ul><br>
+                                <li><b>L’energia tra Cassandra, Seneca e Melville</b>, su «Nuova Secondaria», anno XXXV, 9 maggio 2018, pagg. 74-76.</li>
+                                <li><b>Le alternative per la mobilità sostenibile: il caso dell’idrogeno</b> (con <a href="http://www.lorenzobattisti.it/">Lorenzo Battisti</a>), su «Sapere», a. 84, febbraio 2018, pp. 22-27.</li>
+                                <li><b>Narrare storie, tra didattica e divulgazione</b>, su «Nuova Secondaria», anno XXXV, 5 gennaio 2018, pagg. 23-24.</li>
+                                <li><b>Il cambiamento climatico provoca un cambiamento sociale?</b>, su «Nuova Secondaria», anno XXXIV, 1 settembre 2016, pagg. 99-101.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        
+                        <h5>08.2 Articoli e collaborazioni più recenti #2: «Scienze e Ricerche» (sui temi ambiente e risorse, 2015-2018)</h5>
+
+                        <button data-toggle="collapse" data-target="#02">Dettagli</button>
+                        <div id="02" class="collapse">
+                            <ul><br>
+                                <li><b>Amare Gaia, il messaggio dell’ultima fantascienza</b>, su «Scienze & Ricerche Magazine», aprile 2017, pp. 13-16.</li>
+                                <li><b>La “marmitta di Gaia”: quante emissioni tra Parigi e Marrakech?</b>, n. 42, 1 dicembre 2016, pp. 9-13.</li>
+                                <li><b>La questione energetica è anche una questione etica?</b>, n. 34, 1 agosto 2016, pp. 5-11.</li>
+                                <li><b>Cos’è cambiato nel cambiamento climatico?</b>, n. 25, 15 marzo 2016, pp. 5-13.</li>
+                                <li><b>Il pianeta Terra e il punto di non ritorno</b>, n. 14, 1 ottobre 2015, pp. 5-8.</li>
+                                <li><b>Letteratura, scienza e realtà a 70 anni da Hiroshima e Nagasaki</b>, n. 10 (1), agosto 2015, pp. 5-11.</li>
+                                <li><b>L’informatica, il web e la guerra</b>, n. 8, giugno 2015, pp. 5-6.</li>
+                                <li><b>Gatti di Schrödinger e tachioni. Plausibilità scientifica nella serie tv «Flash forward» tra fisica e filosofia</b>, n. 6, aprile 2015, pp. 51-54.</li>
+                                <li><b>L’orologio del cambiamento climatico</b>, n. 5, marzo 2015, pp. 7-8.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        
+                        <h5>08.3 Articoli meno recenti (2002-2006)</h5>
+
+                        <button data-toggle="collapse" data-target="#03">Dettagli</button>
+                        <div id="03" class="collapse">
+                            <ul><br>
+                                <li><b>L’orologio che conta 10 mila anni</b>, su «Tutto Scienze e Tecnologia», inserto de «La Stampa», n° 1243, 30 agosto 2006, p. 3.</li>
+                                <li><b>Il dito (medio?) di Galileo: alcuni spunti sulla percezione della scienza come magia</b>, su «Le Apuane» rivista di cultura, storia, etnologia, anno XXV, n° 49, maggio 2005, pp. 109-119.</li>
+                                <li><b>Per una epistemologia delle intenzioni. Settembre 1941: Bohr, Heisenberg e l’atomica</b>, su «Nuova Civiltà delle Macchine» rivista trimestrale di analisi e critica, XXII, n° 4, dicembre 2004, pp. 118-133.</li>
+                                <li><b>‘Naturalia’ e ‘artificialia’. Note per una storia dei musei della scienza</b>, su «Le Apuane» rivista di cultura, storia, etnologia, anno XXIV, n° 48, novembre 2004, pp. 54-76.</li>
+                                <li><b>Medicina: scienza o stregoneria?</b> (con Mario Germani), su «Le Apuane» rivista di cultura, storia, etnologia, anno XXIV, n° 48, novembre 2004, pp. 115-122.</li>
+                                <li><b>Ma che cosa c’entra la matematica con Dylan Dog?</b>, articolo-recensione a «Matematica e cultura 2004», a cura di Michele Emmer, Springer Italia editore. Su «Tutto Scienze e Tecnologia», inserto de «La Stampa» n° 1137, 21 luglio 2004, p. 4.</li>
+                                <li><b>Scienza, informatica e paesi in via di sviluppo: il caso eJDS</b>, su «ISF press», periodico dell'Associazione Ingegneria Senza Frontiere, anno I, n° 2, luglio 2004, pp. 6-8.</li>
+                                <li><b>‘Anatemnein’: note per una storia iconica e semiotica del corpo umano</b>, su «Le Apuane» rivista di cultura, storia, etnologia, anno XXIV, n° 47, maggio 2004, pp. 99-111.</li>
+                                <li><b><span class="badge badge-secondary">W</span> Una carota per l’Antartide. Si avvicina alla fine il progetto europeo Epica</b>, su «Jekyll on line», Giornale del Master in Comunicazione della Scienza della SISSA – Trieste, gennaio 2004.</li>
+                                <li><b>Meccaniche celesti (e non solo): immagini, visioni e rappresentazioni dell’universo</b>, su «Le Apuane» rivista di cultura, storia, etnologia, anno XXIV, anno XXIII, n° 46, novembre 2003, pp. 9-36.</li>
+                                <li><b><span class="badge badge-secondary">W</span> AAA Nanoetica cercasi. Si accende il dibattito sulle implicazioni etiche e sociali delle nanotecnologie</b> (con Marco Motta), su «Jekyll on line», Giornale del Master in Comunicazione della Scienza della SISSA – Trieste, luglio 2003.</li>
+                                <li><b><span class="badge badge-secondary">W</span> <a href="http://www.anghelos.org/ARTE_E_ARCHITETTURA/ATTIVITA_DI_RICERCA/OSSERVATORIO/Call/CALL_SCRITTURE.htm">Abitare il cosmo: immagini, visioni e rappresentazioni</a></b>, selezionato tra i <i>call for contributors</i> da «Abitare tra», Osservatorio sulla Comunicazione – Palermo, giugno 2003.</li>
+                                <li><b>Meccaniche celesti (e non solo): da Giovanni Dondi a Galileo</b>, su «Le Apuane» rivista di cultura, storia, etnologia, anno XXIV, anno XXII, n° 44, novembre 2002, pp. 136-146.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+            </div>
+
+
+            <!--/span-->
+        </div>
+        <!--/row-->
+
+        <hr>
+
+        <footer>
+            <p>&copy; Luciano Celi 2020</p>
+        </footer>
+
+    </div>
+</body></html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Luciano Celi website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <script src="website/js/jquery.min.js"></script>
+    <script src="website/js/bootstrap.min.js"></script>
+    <link href="website/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        .bs-example {
+            margin: 20px;
+        }
+
+        .rotate {
+            -webkit-transform: rotate(90deg);
+            /* Chrome, Safari, Opera */
+            -moz-transform: rotate(90deg);
+            /* Firefox */
+            -ms-transform: rotate(90deg);
+            /* IE 9 */
+            transform: rotate(90deg);
+            /* Standard syntax */
+        }
+
+        @media (max-width: 980px) {
+
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+        }
+
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            // Add minus icon for collapse element which is open by default
+            $(".collapse.in").each(function() {
+                $(this).siblings(".panel-heading").find(".glyphicon").addClass("rotate");
+            });
+
+            // Toggle plus minus icon on show hide of collapse element
+            $(".collapse").on('show.bs.collapse', function() {
+                $(this).parent().find(".glyphicon").addClass("rotate");
+            }).on('hide.bs.collapse', function() {
+                $(this).parent().find(".glyphicon").removeClass("rotate");
+            });
+        });
+
+    </script>
+
+    <link href="website/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="website/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="website/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="website/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="website/ico/apple-touch-icon.png">
+    <link rel="shortcut icon" href="website/ico/favicon.ico">
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="#">Luciano Celi website</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contatti</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span3">
+                <div class="well sidebar-nav">
+                    <ul class="nav nav-list">
+                        <li class="nav-header">formazione</li>
+                        <li><a href="01.html">01. Formazione istituzionale</a></li>
+                        <li><a href="02.html">02. Formazione tecnica</a></li>
+                        <li class="nav-header">esperienze di lavoro</li>
+                        <li><a href="03.html">03. Fino al 2005</a></li>
+                        <li><a href="04.html">04. Prima del 2005</a></li>
+                        <li class="nav-header">divulgazione scientifica</li>
+                        <li><a href="05.html">05. Conferenze, lezioni, presentazioni</a></li>
+                        <li class="active"><a href="#">06. Corsi, convegni, seminari, scuole</a></li>
+                        <li><a href="07.html">07. Attività pubblicistica generale</a></li>
+                        <li><a href="08.html">08. Divulgazione e storia della scienza</a></li>
+                        <li class="nav-header">altre informazioni</li>
+                        <li><a href="09.html">09. Libri</a></li>
+                        <li><a href="10.html">10. Divulgazione culturale</a></li>
+                        <li><a href="11.html">11. Organizzazione di eventi</a></li>
+                        <li><a href="12.html">12. Curatele</a></li>
+                        <li><a href="13.html">13. Collaborazioni</a></li>
+                        <li><a href="14.html">14. Altre informazioni</a></li>
+                        <li class="nav-header">vita cnr</li>
+                        <li><a href="15.html">15. Aggiornamento / formazione</a></li>
+                        <li><a href="16.html">16. Articoli scientifici (peer reviewed)</a></li>
+                        <li><a href="17.html">17. Divulgazione scientifica / Ufficio stampa</a></li>
+                        <li><a href="18.html">18. Conferenze stampa</a></li>
+                        <li><a href="19.html">19. conferenze / interventi a convegni</a></li>
+                        <li><a href="20.html">20. Incarichi e attività istituzionali</a></li>
+                    </ul>
+                </div>
+                <!--/.well -->
+            </div>
+            <!--/span-->
+
+            <div class="span9">
+                <div class="row-fluid">
+                    <div class="span9">
+                        <h3 align="center">06. Corsi, convegni, seminari, scuole</h3>
+                        <h4 align="center">(<span class="badge badge-secondary">R</span> = come relatore | <span class="badge badge-secondary">P</span> = sola partecipazione - dal 2005, più rilevanti) </h4>
+                        <hr>
+                        <h5>Prima edizione della Scuola Estiva di Neuroetica - SISSA, Trieste <span class="badge badge-secondary">P</span></h5>
+
+                        <button data-toggle="collapse" data-target="#01">Dettagli</button>
+                        <div id="01" class="collapse">
+                            <br>
+                            <p><b>Laboratorio Interdisciplinare della SISSA in collaborazione con la Società Italiana di Neuroetica e Filosofia delle Neuroscienze e con la Società Italiana di Storia, Filosofia e Studi Sociali della Biologia e della Medicina</b></p>
+                            <p>Periodo: 16-19 settembre 2013.</p>
+                            <p>La neuroetica è un nuovo campo di studi dove le neuroscienze intersecano la filosofia. Una disciplina nata da alcuni anni per rispondere alla sempre più pressante necessità di riflettere sulle implicazioni etiche dell’uso delle neuroscienze. Negli ultimi decenni infatti si è assistito a straordinari avanzamenti nella conoscenza del cervello e alla messa a punto di tecniche per visualizzare e manipolare le funzioni del sistema nervoso. Ma fino a che punto è lecito spingersi nell’indagine e soprattutto nell’intervento sul cervello di un individuo? Queste sono alcune delle questioni cui si tenta di dare risposta.</p>
+                        </div>
+                        <hr>
+                        <h5>VII Convegno Nazionale sulla Comunicazione della Scienza «Big science, big communication» - Forlì <span class="badge badge-secondary">R</span></h5>
+
+                        <button data-toggle="collapse" data-target="#02">Dettagli</button>
+                        <div id="02" class="collapse">
+                            <br>
+                            <p><b>Innovazione in Comunicazione della Scienza – SISSA, Trieste, in collaborazione con «Associazione Nuova Civiltà delle Macchine», Comune di Forlì, Provincia di Forlì-Cesena e Fondazione Cassa di Risparmio di Forlì</b></p>
+                            <p>Periodo: 27-29 novembre 2008.</p>
+                            <p>Intervento dal titolo «Comunicare nel settore farmaceutico: quel che torna in azienda».</p>
+                        </div>
+                        <hr>
+                        <h5>Open Lab di Genomica Funzionale - Roma <span class="badge badge-secondary">P</span></h5>
+
+                        <button data-toggle="collapse" data-target="#03">Dettagli</button>
+                        <div id="03" class="collapse">
+                            <br>
+                            <p><b>Università degli Studi «La Sapienza», Dipartimento di Biologia Cellulare e dello Sviluppo, Laboratorio di Genomica Funzionale e dei Sistemi Modello</b></p>
+                            <p>Periodo: 11-12 giugno 2007.</p>
+                            <p>Partecipazione all’iniziativa organizzata dal professor Negri per il Master di I livello “Le scienze della vita nel giornalismo e nei rapporti politico-istituzionali”.</p>
+                        </div>
+                        <hr>
+                        <h5>X Congresso nazionale Aisea (Associazione Italiana per le Scienze Etno-Antropologiche) - Roma <span class="badge badge-secondary">R</span></h5>
+
+                        <button data-toggle="collapse" data-target="#04">Dettagli</button>
+                        <div id="04" class="collapse">
+                            <br>
+                            <p><b>Congresso: «Cibo e alimentazione. Tradizione, simboli, saperi» - sala convegni CNR</b></p>
+                            <p>Periodo: 5-7 luglio 2006.</p>
+                            <p>Intervento dal titolo «Naturalia, artificialia e tipicalia: note per una storia del cibo».</p>
+                        </div>
+                        <hr>
+                        <h5>Seminario al Ministero dell’Economia e delle Finanze - Roma <span class="badge badge-secondary">R</span></h5>
+
+                        <button data-toggle="collapse" data-target="#05">Dettagli</button>
+                        <div id="05" class="collapse">
+                            <br>
+                            <p><b>Seminario dal titolo: «Epistemologia e Statistica: qualche punto di contatto?»</b></p>
+                            <p>Data: 21 ottobre 2005.</p>
+                            <p>Seminario nell’ambito dei corsi per l’utilizzo del software Sas, Dipartimento della Ragioneria Generale dello Stato.</p>
+                        </div>
+                        <hr>
+                        <h5>Workshop: «Scrivere la macchina. Un laboratorio tra esperienze materiali e scritture creative, intorno alla tecnologia e alle macchine» - Torino <span class="badge badge-secondary">R</span></h5>
+
+                        <button data-toggle="collapse" data-target="#06">Dettagli</button>
+                        <div id="06" class="collapse">
+                            <br>
+                            <p><b>Intervento dal titolo «(De)scrivere (sommariamente) la macchina, quando si chiama E655»</b></p>
+                            <p>Periodo: 10-12 gennaio 2005.</p>
+                            <p>Il workshop si è tenuto al MAP, Museo-Archivio del Politecnico di Torino.</p>
+                        </div>
+                    </div>
+                    <!--/span-->
+                </div>
+                <!--/row-->
+            </div>
+
+
+            <!--/span-->
+        </div>
+        <!--/row-->
+
+        <hr>
+
+        <footer>
+            <p>&copy; Luciano Celi 2020</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
